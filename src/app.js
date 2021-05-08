@@ -49,7 +49,7 @@ app.get(`/weather`, (req, res) => {
 app.get("/about", (req, res) => {
     res.render(`about`, {
         mainTitle: `About`,
-        title: `About`,
+        title: `About Me`,
         name: `Rizwan Farooqui`
     })
 });
